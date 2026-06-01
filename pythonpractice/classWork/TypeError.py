@@ -7,5 +7,4 @@ val2 = int(input("Enter the second integer: "))
 val3 = int(input("Enter the third integer: "))
 
 result = add_mul(val1, val2, val3)
-
 print("The result is " + result)

@@ -7,5 +7,4 @@ while i <= n:
         factorial = factorial * j
         j += 1
     print("The factorial of", i, "is", factorial)
-
     i += 1
