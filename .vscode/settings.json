@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./pythonpractice/Basic_python"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
