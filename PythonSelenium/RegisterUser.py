@@ -20,28 +20,19 @@ driver.get("https://automationexercise.com")
 driver.find_element(By.XPATH, "//a[normalize-space()='Signup / Login']").click()
 
 wait.until(
-    EC.visibility_of_element_located((By.NAME, "name"))
-).send_keys("Samiha")
-
+    EC.visibility_of_element_located((By.NAME, "name"))).send_keys("Samiha")
 email = f"samiha{int(time.time())}@gmail.com"
 
 driver.find_element(
     By.XPATH,
-    "//input[@data-qa='signup-email']"
-).send_keys(email)
+    "//input[@data-qa='signup-email']").send_keys(email)
 
 signupButton = driver.find_element(
-    By.XPATH,
-    "//button[@data-qa='signup-button']"
-)
+    By.XPATH,"//button[@data-qa='signup-button']")
 
 driver.execute_script("arguments[0].click();", signupButton)
 
-heading = wait.until(
-    EC.visibility_of_element_located(
-        (By.XPATH, "//b[text()='Enter Account Information']")
-    )
-)
+heading = wait.until(EC.visibility_of_element_located((By.XPATH, "//b[text()='Enter Account Information']")))
 
 print("Heading Text :", heading.text)
 
@@ -69,17 +60,12 @@ driver.find_element(By.ID, "zipcode").send_keys("636008")
 driver.find_element(By.ID, "mobile_number").send_keys("9876543210")
 
 createAccount = driver.find_element(
-    By.XPATH,
-    "//button[text()='Create Account']"
-)
+    By.XPATH,"//button[text()='Create Account']")
 
 driver.execute_script("arguments[0].click();", createAccount)
 
 accountCreated = wait.until(
-    EC.visibility_of_element_located(
-        (By.XPATH, "//b[text()='Account Created!']")
-    )
-)
+    EC.visibility_of_element_located((By.XPATH, "//b[text()='Account Created!']")))
 
 print("Message :", accountCreated.text)
 
@@ -87,12 +73,7 @@ if accountCreated.text == "ACCOUNT CREATED!":
     print("Account Created Successfully")
 
 # Continue Button
-continueBtn = wait.until(
-    EC.element_to_be_clickable(
-        (By.XPATH, "//a[@data-qa='continue-button']")
-    )
-)
-
+continueBtn = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-qa='continue-button']")))
 driver.execute_script("arguments[0].click();", continueBtn)
 
 # Handle Google Vignette Ad
@@ -118,12 +99,7 @@ deleteButton = wait.until(
 
 driver.execute_script("arguments[0].click();", deleteButton)
 
-accountDeleted = wait.until(
-    EC.visibility_of_element_located(
-        (By.XPATH, "//b[text()='Account Deleted!']")
-    )
-)
-
+accountDeleted = wait.until( EC.visibility_of_element_located((By.XPATH, "//b[text()='Account Deleted!']")))
 print("Message :", accountDeleted.text)
 
 if accountDeleted.text == "ACCOUNT DELETED!":
