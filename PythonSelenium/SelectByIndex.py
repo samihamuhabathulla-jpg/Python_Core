@@ -10,13 +10,10 @@ driver.get("https://www.leafground.com/select.xhtml")
 
 dropdown = driver.find_element( By.XPATH, "//select[@class='ui-selectonemenu']")
 select = Select(dropdown)
-
-# Select option at index 
+ 
 select.select_by_index(1)
 print("Selected:", select.first_selected_option.text)
-time.sleep(5)
-
-# Select option at index 
+time.sleep(5) 
 select.select_by_index(2)
 print("Selected:", select.first_selected_option.text)
 
