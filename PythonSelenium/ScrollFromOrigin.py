@@ -7,10 +7,8 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://omayo.blogspot.com/")
 driver.maximize_window()
-# Create scroll origin from the body element
 body = driver.find_element(By.TAG_NAME, "body")
 origin = ScrollOrigin.from_element(body)
-# Scroll 800 pixels down from body
 ActionChains(driver).scroll_from_origin(origin,0,800).perform()
 time.sleep(3)
 iframe = driver.find_element(By.ID, "iframe1")
