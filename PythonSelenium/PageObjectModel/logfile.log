@@ -1,0 +1,28 @@
+2026-06-10 14:13:58,270 : INFO : Dropdown clicked
+2026-06-10 14:23:43,371 : INFO : Dropdown clicked
+2026-06-10 14:23:43,791 : INFO : Login link clicked
+2026-06-10 14:23:44,009 : INFO : Email entered
+2026-06-10 14:23:44,138 : INFO : Password entered
+2026-06-10 14:23:45,382 : INFO : Login button clicked
+2026-06-10 14:23:45,456 : INFO : Login successful
+2026-06-10 14:26:57,357 : INFO : Product entered
+2026-06-10 14:26:57,779 : INFO : Search button clicked
+2026-06-10 14:26:57,830 : INFO : Product displayed
+2026-06-10 14:27:46,293 : INFO : Dropdown clicked
+2026-06-10 14:27:46,919 : INFO : Email entered
+2026-06-10 14:27:47,078 : INFO : Password entered
+2026-06-10 14:27:48,381 : INFO : Login successful
+2026-06-10 14:27:48,564 : INFO : My Account clicked
+2026-06-10 14:27:49,192 : INFO : Logout clicked
+2026-06-10 14:27:49,288 : INFO : Logout successful
+2026-06-10 14:30:12,877 : INFO : Dropdown clicked
+2026-06-10 14:30:14,262 : INFO : Email entered
+2026-06-10 14:30:14,430 : INFO : Password entered
+2026-06-10 14:30:14,580 : INFO : Login successful
+2026-06-10 14:30:40,925 : INFO : My Account clicked
+2026-06-10 14:30:43,925 : INFO : Logout clicked
+2026-06-10 14:30:44,011 : INFO : Logout successful
+2026-06-10 15:56:16,884 : INFO : Dropdown clicked
+2026-06-10 15:56:17,660 : INFO : Register link clicked
+2026-06-10 15:56:18,778 : INFO : Registration details entered
+2026-06-10 15:56:19,915 : INFO : Warning message displayed successfully
