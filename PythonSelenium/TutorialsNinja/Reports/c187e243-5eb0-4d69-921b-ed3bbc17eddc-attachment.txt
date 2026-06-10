@@ -1,0 +1,5 @@
+[32mINFO    [0m AutomationLogger:conftest.py:17 Browser launched
+[32mINFO    [0m AutomationLogger:conftest.py:22 Application launched
+[32mINFO    [0m AutomationLogger:Search_test.py:19 Valid search term entered
+[32mINFO    [0m AutomationLogger:Search_test.py:21 Search button clicked
+[32mINFO    [0m AutomationLogger:Search_test.py:23 Search product displayed

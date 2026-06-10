@@ -1,0 +1,2 @@
+[32mINFO    [0m AutomationLogger:conftest.py:17 Browser launched
+[32mINFO    [0m AutomationLogger:conftest.py:22 Application launched
